@@ -29,7 +29,7 @@ Complete this source code to print `object-oriented programming with Python`, fo
 ### [9. Easter Egg](./9-easter_egg.py)
 Write a Python script that prints `“The Zen of Python”`, by TimPeters, followed by a new line.
 ### [10. Linked list cycle](./10-check_cycle.c,-lists.h)
-`**Technical interview preparation:**`
+`Technical interview preparation:`
 
 You are not allowed to google anything
 * Whiteboard first
