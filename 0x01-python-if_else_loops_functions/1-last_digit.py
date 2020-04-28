@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-ch = abs(number) % 10
+if (number < 0):
+    ch = (number * -1) % 10
+else:
+    ch = (number % 10)
 if (ch != 0):
     if (ch > 5):
         print('Last digit of {:d} is {:d} and\
