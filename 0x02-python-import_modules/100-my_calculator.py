@@ -6,8 +6,8 @@ if __name__ == "__main__":
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
     if (sys.argv[2] != '+', '-', '*', '/'):
-            print("Unknown operator. Available operators: +, -, * and /")
-            exit(1)
+        print("Unknown operator. Available operators: +, -, * and /")
+        exit(1)
     else:
         nun = int(sys.argv[1])
         nun2 = int(sys.argv[3])
