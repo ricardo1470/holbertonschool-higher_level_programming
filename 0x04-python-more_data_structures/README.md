@@ -16,6 +16,7 @@
 | [11. Multiply by using map](./11-mutiply_list_map.py)  | function that returns a list with all values multiplied by a number without using any loops.  |
 | [12. Roman to Integer](./12-roman_to_int.py)  | Create a function `def roman_to_int(roman_string):` that converts a Roman numeral to an integer.  |
 |   |   |
+| [14. Squared by using map](./101-square_matrix_map.py) | function that computes the square value of all integers of a matrix using `map`  |
 ---
 > ## contact 💬
 
