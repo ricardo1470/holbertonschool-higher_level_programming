@@ -1,15 +1,15 @@
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * is_palindrome - check the code for Holberton School students.
+ *@head: value
  * Return: Always 0.
  */
 int is_palindrome(listint_t **head)
 {
 	listint_t *aux = *head;
-
 	int tmp[100], i = 0, j = 0;
+
 	if (!*head || !head || !aux->next)
 	{
 		return (1);
@@ -23,8 +23,10 @@ int is_palindrome(listint_t **head)
 	i--;
 	while (j <= i)
 	{
-		if(tmp[j] != tmp[i])
+		if (tmp[j] != tmp[i])
+		{
 			return (0);
+		}
 		j++;
 		i--;
 	}
