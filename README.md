@@ -6,6 +6,7 @@
 ### 0x03-python-data_structures
 ### 0x04-python-more_data_structures
 ### 0x05-python-exceptions
+### 0x06. Python - Classes and Objects
 ---
 > ## contact 💬
 
