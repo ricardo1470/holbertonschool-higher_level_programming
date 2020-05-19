@@ -1,14 +1,24 @@
 #!/usr/bin/python3
-Square = __import__('4-square').Square
+"""Create a Square class"""
 
-my_square = Square(89)
-print("Area: {} for size: {}".format(my_square.area(), my_square.size))
 
-my_square.size = 3
-print("Area: {} for size: {}".format(my_square.area(), my_square.size))
+class Square:
+    """Square class with a construction method"""
+    def __init__(self, size=0):
+        """Initialize Square with size and area attribute"""
+        self.__size = size
+        if type(size) is not int:
+            raise TypeError("size must be an integer")
+        if size < 0:
+            raise ValueError("size must be >= 0")
 
-try:
-    my_square.size = "5 feet"
-    print("Area: {} for size: {}".format(my_square.area(), my_square.size))
-except Exception as e:
-    print(e)
+    def area(self, area=0):
+        """defines area and makes the square operation into return"""
+        return(self.__size * self.__size)
+
+    def size(self, value):
+        if not isinstance(value, int):
+            raise TypeError('size must be an integer')
+        if value < 0:
+            raise ValueError('size must be >= 0')
+        self.__size = value
