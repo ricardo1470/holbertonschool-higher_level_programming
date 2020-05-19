@@ -8,7 +8,7 @@
 | [0x03-python-data_structures](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x03-python-data_structures) | add description  |
 | [0x04-python-more_data_structures](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x04-python-more_data_structures) | add description  |
 | [0x05-python-exceptions](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions) | add description  |
-| [0x06. Python - Classes and Objects](./) | add description  |
+| [0x06. Python - Classes and Objects](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x06-python-classes) | add description  |
 |   |   |
 
 ---
