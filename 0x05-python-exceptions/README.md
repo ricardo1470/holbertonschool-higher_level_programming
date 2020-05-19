@@ -9,7 +9,12 @@
 |[4. Divide a list](./4-list_division.py)|  function that divides element by element 2 lists.  |
 |[5. Raise exception](./5-raise_exception.py)| function that raises a type exception.  |
 |[6. Raise a message](./6-raise_exception_msg.py)| function that raises a name exception with a message.  |
+| **advanced** |
+| [7. Safe integer print with error message](./100-safe_print_integer_err.py)  | function that prints an integer.  |
+| [8. Safe function](./101-safe_function.py)  | function that executes a function safely.  |
+| [9. ByteCode -> Python #4](./102-magic_calculation.py)  | the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:  |
 |   |   |
+
 ---
 > ## contact 💬
 
