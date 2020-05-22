@@ -2,7 +2,7 @@
 ---
 | **Filename** | **Test** | **Description** |
 |---|---|---|
-| [0. Integers addition](0-add_integer.py) | [0. Test](test/0-add_integer.py)  | function that adds 2 integers.  |
+| [0. Integers addition](0-add_integer.py) | [0. Test](https://github.com/ricardo1470/holbertonschool-higher_level_programming/blob/master/0x07-python-test_driven_development/test/0-add_integer.txt)  | function that adds 2 integers.  |
 | [1. Divide a matrix](2-matrix_divided.py) | [1. Test](tests/2-matrix_divided.txt)  | function that divides all elements of a matrix.  |
 | [2. Say my name](3-say_my_name.py) | [2. Test](tests/3-say_my_name.txt)  | function that prints `My name is <first name> <last name>`  |
 | [3. Print square](4-print_square.py) | [3. Test](tests/4-print_square.txt)  | function that prints a square with the character `#`.  |
