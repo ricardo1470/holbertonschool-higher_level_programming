@@ -1,24 +1,19 @@
 ==========================
-The ``add_integer`` module
+The ``matrix_divided`` module
 ==========================
 
 ---------------------
-Using ``add_integer``
+Using ``matrix_divided``
 ---------------------
 
 import the add_integer module.
 >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
 add positive and negative number
->>> matrix_divided(20, -80)
--60
+>>> matrix_divided([[3, 5, 7]], 3)
+[[1.0, 1.67, 2.33]]
 
----------------------
-Using ``add_float``
----------------------
-add integer and float number
->>> matrix_divided(-56, -9.0)
--65
 
-add two positive floats
->>> matrix_divided(7.5, 98.5)
-105
+>>> matrix_divided(3, 3)
+Traceback (most recent call last):
+TypeError: matrix must be a matrix (list of lists) of integers/floats
