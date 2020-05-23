@@ -39,3 +39,16 @@ TypeError: matrix must be a matrix (list of lists) of integers/floats
 
 >>> matrix_divided([[3, 5, 7]], float('nan'))
 [[nan, nan, nan]]
+
+>>> matrix_divided([[3, 5, 7]], "hello")
+Traceback (most recent call last):
+TypeError: div must be a number
+
+>>> matrix_divided([[7]], 7)
+[[1.0]]
+
+>>> matrix_divided([[float('inf')]], float('inf'))
+[[nan]]
+
+>>> matrix_divided([[float('inf')]], 3)
+[[inf]]
