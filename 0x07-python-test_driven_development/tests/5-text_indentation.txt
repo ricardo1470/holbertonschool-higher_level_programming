@@ -12,7 +12,7 @@ Test for regular string
     >>> text_indentation("Welcome to the Python world!. After 3 months of C, you will start Python today.")
     Welcome to the Python world!.
     <BLANKLINE>
-     After 3 months of C, you will start Python today.
+    After 3 months of C, you will start Python today.
     <BLANKLINE>
 
     
