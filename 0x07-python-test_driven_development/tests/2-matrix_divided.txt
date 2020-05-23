@@ -50,5 +50,8 @@ TypeError: div must be a number
 >>> matrix_divided([[float('inf')]], float('inf'))
 [[nan]]
 
->>> matrix_divided([[float('inf')]], 3)
-[[inf]]
+>>> matrix_divided([[float('inf'), 3, 3]], 3)
+[[inf, 1.0, 1.0]]
+
+>>> matrix_divided([[3, 5, 7]], -5)
+[[-0.6, -1.0, -1.4]]
