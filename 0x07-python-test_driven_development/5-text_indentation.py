@@ -12,4 +12,4 @@ def text_indentation(text):
                (text[i - 1] and text[i - 1] not in [".", "?", ":"])):
                 print(text[i], end='')
         else:
-            print('\n')
+            print('{}\n'.format(text[i]))
