@@ -10,4 +10,5 @@ def text_indentation(text):
         if ord(text[i]) not in [46, 58, 63]:
             print("{}".format(text[i]), end="")
         else:
+            i += 1
             print('{}\n'.format(text[i]))

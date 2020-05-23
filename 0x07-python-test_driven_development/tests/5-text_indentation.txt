@@ -38,3 +38,7 @@ Test for no string
     Traceback (most recent call last):
     TypeError: text must be a string
 
+    >>> text_indentation(("hello", 123))
+    Traceback (most recent call last):
+    TypeError: text must be a string
+
