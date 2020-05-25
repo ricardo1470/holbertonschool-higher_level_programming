@@ -11,7 +11,7 @@
 | [0x05-python-exceptions](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions) | add description  |
 | [0x06. Python - Classes and Objects](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x06-python-classes) | add description  |
 | [0x07. Python - Test-driven development](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development)  | add description  |
-| [0x08-python-more_classes]()  | add description  |
+| [0x08-python-more_classes](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes)  | add description  |
 |   |   |
 
 ---
