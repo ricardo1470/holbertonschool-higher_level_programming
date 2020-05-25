@@ -7,7 +7,7 @@ class Rectangle():
     def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
-    
+
     @property
     def height(self):
         """height"""
@@ -35,11 +35,11 @@ class Rectangle():
         if value < 0:
             raise ValueError('height must be >= 0')
         self.__height = value
-    
+
     def area(self):
         """area of rectangle"""
         return self.__height * self.__width
-    
+
     def perimeter(self):
         """perimeter of rectangle"""
         if self.__height == 0 or self.__width == 0:
