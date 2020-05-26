@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Create class"""
+
+
 class LockedClass:
-    """create
-    class
-    """
+    """LockedClass class"""
+
     __slots__ = ["first_name"]
