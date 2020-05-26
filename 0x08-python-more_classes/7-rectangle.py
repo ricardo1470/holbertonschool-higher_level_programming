@@ -9,19 +9,19 @@ class Rectangle():
     print_symbol = "#"
 
     def __init__(self, width=0, height=0):
-        self.height = height
         self.width = width
+        self.height = height
         Rectangle.number_of_instances += 1
-
-    @property
-    def width(self):
-        """width"""
-        return self.__width
 
     @property
     def height(self):
         """height"""
         return self.__height
+
+    @property
+    def width(self):
+        """width"""
+        return self.__width
 
     @width.setter
     def width(self, value):
@@ -47,19 +47,19 @@ class Rectangle():
 
     def perimeter(self):
         """perimeter of rectangle"""
-        if self.__height == 0 or self.__width == 0:
+        if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__height + self.__width) * 2
 
     def __str__(self):
         """return rectangle"""
-        print_rec = ""
+        rec = ""
         if self.__width > 0 and self.__height > 0:
             for idx in range(self.__height):
-                print_rec += "#" * self.__width
-                print_rec += "\n"
-            print_rec = print_rec[:-1]
-        return print_rec
+                rec += str(self.print_symbol) * self.__width
+                rec += "\n"
+            rec = rec[:-1]
+        return rec
 
     def __repr__(self):
         """ return rectangle"""
@@ -67,7 +67,7 @@ class Rectangle():
             ', ' + str(self.__height) + ')'
 
     def __del__(self):
-        """ Delete rectangle"""
+        """ Delete rectangle""""
         print("Bye rectangle...")
         if Rectangle.number_of_instances:
             Rectangle.number_of_instances -= 1
