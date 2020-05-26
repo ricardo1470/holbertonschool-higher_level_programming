@@ -67,7 +67,7 @@ class Rectangle():
             ', ' + str(self.__height) + ')'
 
     def __del__(self):
-        """ Delete rectangle""""
+        """ Delete rectangle"""
         print("Bye rectangle...")
         if Rectangle.number_of_instances:
             Rectangle.number_of_instances -= 1
