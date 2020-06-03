@@ -1,11 +1,10 @@
 #!/usr/bin/python3
+"""class list."""
+
+
 class MyList(list):
     """class list."""
 
-    def __init__(self):
-        """ initializes object """
-        pass
-
     def print_sorted(self):
-        """ attributes and methods class"""
+        """Prints the list"""
         print(sorted(self))
