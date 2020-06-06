@@ -15,6 +15,7 @@
 | [0x09-python-everything_is_object](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x09-python-everything_is_object)  | add description  |
 | [0x0A-python-inheritance](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x0A-python-inheritance)  | add description  |
 | [0x0B. Python - Input/Output](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x0B-python-input_output) | add description  |
+| [0x0C. Python - Almost a circle](https://github.com/ricardo1470/holbertonschool-higher_level_programming/tree/master/0x0C-python-almost_a_circle) | add description  |
 |   |   |
 
 ---
