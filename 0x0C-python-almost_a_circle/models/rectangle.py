@@ -86,7 +86,7 @@ class Rectangle(Base):
 
     def display(self):
         """update the class Rectangle"""
-        if (self.y):
+        if (self.y > 0):
             for i in range(self.y):
                 print("")
         for i in range(self.height):
