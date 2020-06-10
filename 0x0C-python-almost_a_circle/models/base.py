@@ -36,15 +36,15 @@ class Base():
                 list_dic.append(cls.to_dictionary(element))
         with open(new_file, mode="w", encoding='utf-8') as my_file:
             my_file.write(cls.to_json_string(list_dic))
-    
-    staticmethod
+
+    @staticmethod
     def from_json_string(json_string):
         """returns the list of the JSON string representation"""
         if json_string is None or json_string == "":
             return []
         else:
             return (json.loads(json_string))
-    
+
     @classmethod
     def create(cls, **dictionary):
         """
@@ -57,7 +57,7 @@ class Base():
             obj_j = cls(6)
         obj_j.update(**dictionary)
         return(obj_j)
-    
+
     @classmethod
     def load_from_file(cls):
         """
@@ -75,10 +75,10 @@ class Base():
                 return list_ins
         except:
             return []
-    
+
     @classmethod
     def save_to_file_csv(cls, list_objs):
-        """ 
+        """
             pdate the class Base by adding the static method,
             that opens a window and draws all the Rectangles and Squares
         """
