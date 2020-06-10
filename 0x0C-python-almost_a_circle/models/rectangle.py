@@ -4,16 +4,15 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    """init class
-
-        Args:
+    """init class"""
+    def __init__(self, width, height, x=0, y=0, id=None):
+        """Args:
             width (int)
             height (int)
             x (int)
             y (int)
-            id (int)
-    """
-    def __init__(self, width, height, x=0, y=0, id=None):
+            id (int)"""
+
         self.width = width
         self.height = height
         self.x = x
