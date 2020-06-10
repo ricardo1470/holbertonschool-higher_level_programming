@@ -21,12 +21,12 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        """width"""
+        """width property"""
         return self.__width
 
     @width.setter
     def width(self, value):
-        """width"""
+        """width setter"""
         if type(value) is not int:
             raise TypeError("width must be an integer")
         if value <= 0:
@@ -35,12 +35,12 @@ class Rectangle(Base):
 
     @property
     def height(self):
-        """height"""
+        """height porperty"""
         return self.__height
 
     @height.setter
     def height(self, value):
-        """height"""
+        """height setter"""
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value <= 0:
@@ -58,7 +58,7 @@ class Rectangle(Base):
         if type(value) is not int:
             raise TypeError("x must be an integer")
         if value < 0:
-            raise ValueError("x must be > 0")
+            raise ValueError("x must be >= 0")
         self.__x = value
 
     @property
@@ -72,7 +72,7 @@ class Rectangle(Base):
         if type(value) is not int:
             raise TypeError("y must be an integer")
         if value < 0:
-            raise ValueError("y must be > 0")
+            raise ValueError("y must be >= 0")
         self.__y = value
 
     def area(self):
@@ -104,6 +104,7 @@ class Rectangle(Base):
                 setattr(self, key, value)
 
     def to_dictionary(self):
+        """create dictionary"""
         dic_arg = {
             "id": self.id,
             "width": self.width,

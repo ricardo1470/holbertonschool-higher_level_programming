@@ -6,16 +6,17 @@ from models.rectangle import Rectangle
 class Square(Rectangle):
     """init class"""
     def __init__(self, size, x=0, y=0, id=None):
+        """init"""
         super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
-        """size"""
+        """size getter"""
         return self.width
 
     @size.setter
     def size(self, value):
-        """size"""
+        """size setter"""
         self.width = value
         self.height = value
 
@@ -36,6 +37,7 @@ class Square(Rectangle):
                 setattr(self, key, value)
 
     def to_dictionary(self):
+        """create dictionary"""
         dic_arg = {
             "id": self.id,
             "size": self.width,
