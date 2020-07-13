@@ -22,7 +22,7 @@
 ---
 
 ## License
-*<a href="url"><img src="https://e7.pngegg.com/pngimages/252/959/png-clipart-mysql-database-server-microsoft-sql-server-others-text-logo.png" align="middle" width="60" height="60"></a>`SQL - Introduction` is open source and therefore free to download and use without permission.*
+*<a href="url"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" align="middle" width="100" height="60"></a>`SQL - Introduction` is open source and therefore free to download and use without permission.*
 
 <a href="url"><img src="https://www.holbertonschool.com/holberton-logo.png" align="middle" width="100" height="30"></a>
 
