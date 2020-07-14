@@ -2,6 +2,11 @@
 """create class"""
 import json
 import csv
+import turtle
+
+
+"""init turtle module"""
+star = turtle.Turtle()
 
 
 class Base():

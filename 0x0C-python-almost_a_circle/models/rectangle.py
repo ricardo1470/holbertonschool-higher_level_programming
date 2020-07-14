@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """create class rectangle"""
 from models.base import Base
+ 
 
 
 class Rectangle(Base):
@@ -112,3 +113,6 @@ class Rectangle(Base):
             "x": self.x,
             "y": self.y}
         return (dic_arg)
+
+def draw(list_rectangles, list_squares):
+    """list for turtle"""
