@@ -3,11 +3,7 @@
 
 
 def append_after(filename="", search_string="", new_string=""):
-    """
-    :param filename: name of file
-    :param search_string: string to look for
-    :param new_string: string to add in new line
-    :return:
+    """param filename: name of file
     """
     with open(filename, "r") as f:
         string = ""
