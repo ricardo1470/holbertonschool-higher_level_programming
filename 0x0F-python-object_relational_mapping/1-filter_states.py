@@ -27,4 +27,5 @@ if __name__ == '__main__':
         if results[1][0] == 'N':
             print(results)
 
+    cur.close()
     db.close()
