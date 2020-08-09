@@ -17,6 +17,11 @@
 | [12. Update a state](./12-model_state_update_id_2.py) | script that changes the name of a `State` object from the database `hbtn_0e_6_usa`  |
 | [13. Delete states](./13-model_state_delete_a.py) | script that deletes all `State` objects with a `name` containing the letter a from the database `hbtn_0e_6_usa`  |
 | [14. Cities in state](./14-model_city_fetch_by_state.py) | Python file similar to `model_state.py` named `model_city.py` that contains the class definition of a `City`.  |
+| **advanced** | **description** |
+| [15. City relationship](./100-relationship_states_cities.py) | script that creates the `State` “California” with the `City` “San Francisco” from the database `hbtn_0e_100_usa`.  |
+| [16. List relationship](./101-relationship_states_cities_list.py) | script that lists all `State` objects, and corresponding `City` objects, contained in the database `hbtn_0e_101_usa`  |
+| [17. From city](./102-relationship_cities_states_list.py) | script that lists all `City` objects from the database `hbtn_0e_101_usa`  |
+|   |   |
 ---
 ## License
 *<a href="url"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png" align="middle" width="100" height="60"></a>`Object-relational mapping` is open source and therefore free to download and use without permission.*
