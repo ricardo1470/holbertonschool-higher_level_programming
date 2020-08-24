@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from urllib import request 
+from urllib import request
 """ script that fetches https://intranet.hbtn.io/status
     -You must use the package urllib
     -You must use a with statement """
