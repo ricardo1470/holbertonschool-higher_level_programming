@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 from urllib import request 
-""" no se que comentar """
+""" script that fetches https://intranet.hbtn.io/status
+    -You must use the package urllib
+    -You must use a with statement """
 
 if __name__ == '__main__':
     url = 'https://intranet.hbtn.io/status'
