@@ -11,4 +11,4 @@ from sys import argv
 if __name__ == '__main__':
     with request.urlopen(argv[1]) as page:
         req_pag = page.headers.get("X-Request-Id")
-        print(req_pag)
+    print(req_pag)
