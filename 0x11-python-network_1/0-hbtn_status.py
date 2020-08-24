@@ -4,6 +4,7 @@ from urllib import request
     -You must use the package urllib
     -You must use a with statement """
 
+
 if __name__ == '__main__':
     url = 'https://intranet.hbtn.io/status'
     with request.urlopen(url) as reponse:
